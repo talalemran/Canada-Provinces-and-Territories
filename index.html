@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canada Provinces and Territories</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    </head>
+<body>
+    <div id="wrapper">
+        <div class="section group">
+        <div class="col span_1_of_2">
+            <center><img src="./img/canada.png" alt="Canada" width="100%" height="100%"></center>
+        </div>
+        <div class="col span_1_of_2">
+            <h1>Canada Provinces and Territories</h1>
+            <label for="provinces">Choose a province:</label>
+            <select id="prov">
+            <option value="Ontario">Ontario</option>
+            <option value="Quebec">Quebec</option>
+            <option value="Nova Scotia">Nova Scotia</option>
+            <option value="New Brunswick">New Brunswick</option>
+            <option value="Manitoba">Manitoba</option>
+            <option value="British Columbia">British Columbia</option>
+            <option value="Prince Edward Island">Prince Edward Island</option>
+            <option value="Saskatchewan">Saskatchewan</option>
+            <option value="Alberta">Alberta</option>
+            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+            <option value="Northwest Territories">Northwest Territories</option>
+            <option value="Yukon">Yukon</option>
+            <option value="Nunavut">Nunavut</option>
+            </select>
+            <br>
+            <button onclick="select1()">Click Here</button>
+            <p id="text" class="text"></p>
+            <p id="img" class="img"></p>
+            <p id="info" class="info"></p>
+            <div id ="canada" class="canada">
+                <h2>Canada</h2>
+                <img src="./img/canada-flag.png" alt="Canada Flag">
+                <ul><li>Capital City: Ottawa</li><li>Started Confederation: July 1, 1867</li><li>Population: 37,894,799</li><li>Official Languages: English, French</li></ul>
+            </div>            
+        </div>
+        </div>
+        <div id="footer">
+            <p>Made With <i class="fas fa-heart"></i> By Talal Emran, &copy; 2020.</p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
